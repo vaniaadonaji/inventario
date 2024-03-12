@@ -1,0 +1,47 @@
+/* Digo que el body y main van a ocupar el 100% del navegador: */
+body,html{
+    height: 100%;
+    width: 100%;
+}
+
+/* Agrega una imagen de fondo al contenedor de login */
+.login-estilo { 
+    background-image: url('../img/imagen-login.webp');
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Agrega una imagen de fondo al contenedor de la página de inicio */
+.home-estilo {
+    background-image: url('../img/imagen-home.jpg'); /* Ruta a la imagen de fondo del home */
+    width: 100%;
+    height: auto;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Le doy algunos estilos al div del login con la clase main-container */
+.main-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Le doy estilos al elemento con la clase login que esta dentro del div con la clase main-container */
+.main-container > .login,
+.main-container > .hero-body{
+    height: auto;
+    width: 100%;
+    max-width: 400px; /*Le damos un maximo de ancho */
+    min-width: 300px; /*Le damos un minimo de ancho */
+}
+
+.form-inline{
+    display: inline-flex;
+}
