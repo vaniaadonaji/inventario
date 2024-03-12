@@ -3,7 +3,9 @@ body,html{
     height: 100%;
     width: 100%;
 }
-
+.fondo{
+    background: linear-gradient(to bottom, #4b6cb7, #182848);
+}
 /* Agrega una imagen de fondo al contenedor de login */
 .login-estilo { 
     background-image: url('../img/imagen-login.webp');

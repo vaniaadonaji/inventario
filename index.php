@@ -8,7 +8,7 @@
     include "./inc/head.php";
     ?>
 </head>
-<body>
+<body class="fondo">
     <?php
 
     // Si mi variable tipo GET llamada vista no viene definida o esta vacia
